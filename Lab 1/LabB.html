@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 1 (b)</title>
+</head>
+<body>
+    <header class="seccion-header">
+        <h1>Laboratorio 1</h1>
+    <nav id= "navegacion">
+        <a href="/Lab 1/LabA.html">Sobre Mí</a>
+        <a href="/Lab 1/LabA.html">Aficiones</a>
+        <a href="/Lab 1/LabA.html">Contacto</a>
+        <a href="/Lab 1/LabA.html">Preguntas a Responder</a>   
+    </nav>
+</header>
+
+<main class="seccion-preguntas">
+    <h2>Preguntas a Responder</h2>
+    <div class class="preguntas-respuestas">
+        <ul>
+            <li><h2>¿Cuál es la diferencia entre Internet y la World Wide Web?</h2></li>
+            <p>El internet es un sistema que conforma una gran red de comunicación mundial, a través de la cual se mantienen interconectadas millones de personas por medio de diversos servicios que ofrecen la conexión. La web o World Wide Web es un sistema que funciona a través de internet, por el cual se pueden transmitir diversos tipos de datos a través del Protocolo de Transferencia de Hipertextos o HTTP, que son los enlaces de las páginas web.</p>
+
+            <li><h2>¿Cuál es el propósito de los métodos HTTP: GET, HEAD, POST, PUT, PATCH, DELETE?</h2></li>
+            <p> Usa GET para extraer información solamente <br>
+                Usa POST para crear nuevos recursos y para mandar informacón al servidor <br>
+                Usa PUT para actualizar un recurso existente <br>
+                DELETE elimina recursos <br>
+                HEAD para extraer información pero de manera parcial (encabezados y líneas de estado) <br>
+                PATCH permite hacer una modificación parcial al recurso </p>
+
+            <li><h2>¿Qué método HTTP se debe utilizar al enviar un formulario HTML, por ejemplo cuando ingresas tu usuario y contraseña en algún sitio? ¿Por qué?</h2></li>
+            <p>POST porque estas ingresando información al servidor</p>
+
+            <li><h2>¿Qué método HTTP se debe utilizar al enviar un formulario HTML, por ejemplo cuando ingresas tu usuario y contraseña en algún sitio? ¿Por qué?</h2></li>
+            <p>GET porque estas cargando la información desde el servidor</p>
+
+            <li><h2>Un servidor web devuelve una respuesta HTTP con código 200. ¿Qué significa esto? ¿Ocurrió algún error?</h2></li>
+            <p> La solicitud ha tenido éxito. El significado de un éxito varía dependiendo del método HTTP: <br>
+                GET: El recurso se ha obtenido y se transmite en el cuerpo del mensaje. <br>
+                HEAD: Los encabezados de entidad están en el cuerpo del mensaje. <br>
+                PUT o POST: El recurso que describe el resultado de la acción se transmite en el cuerpo del mensaje. <br>
+                TRACE: El cuerpo del mensaje contiene el mensaje de solicitud recibido por el servidor.</p>
+
+            <li><h2>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 404? ¿Por qué? </h2></li>
+            <p>El servidor no pudo encontrar el contenido solicitado. Este código de respuesta es uno de los más famosos dada su alta ocurrencia en la web.</p>
+
+            <li><h2>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 500? ¿Por qué? </h2></li>
+            <p>El servidor ha encontrado una situación que no sabe como manejarla, por lo tanto es su responsabilidad encontrar el error y corregirlo.</p>
+
+            <li><h2>¿Qué significa que un atributo HTML5 esté depreciado o desaprobado (deprecated)? Menciona algunos elementos de HTML 4 que en HTML5 estén desaprobados. </h2></li>
+            <p>Es obsoleto como: acronym, applet, basefont, bgsound. big. blink, center, dir, font, frame, frameset, isindex, listing, marquee, nobr, noembed, noframes, plaintext, s, spacer, strike, tt, u, wbr, xmp.</p>
+
+            <li><h2>¿Cuáles son las diferencias principales entre HTML 4 y HTML5?</h2></li>
+            <p>No es necesario el cierre de las etiquetas img, br, hr, input, etc. Se puede usar tanto minúsculas como mayúsculas en el código a diferencia del XHTML que solo admite minúsculas. El Doctype o declaración del documento está completamente minimizado, en HTML5 solo es necesario emplear: Introduce nuevos marcadores para sumarlos a los existentes div en usos específicos, por ejemplo: nav, footer, audio, video, etc.</p>
+            
+            <li><h2>¿Qué componentes de estructura y estilo tiene una tabla?</h2></li>
+            <p> < table > te permite hacer la tabla <br>
+                < tr > crea las filas o rows <br>
+                < td > permite crear columnas o data <br>
+                < thead > es para el encabezado <br>
+                < tbody > es para el cuerpo <br>
+                Puedes usar < colspan > y < rowspan > para fucionar columnas y filas </p>
+
+            <li><h2>¿Cuáles son los principales controles de una forma HTML5?</h2></li>
+            <p> < input > permite hacer entradas al formulario <br>
+                Se puede modificar el tipo de entrada a texto, boton, checkbox, entre otros <br>
+                < action > es la acción que sucede cuando subes el formulario <br>
+                < target > es la página que puede redireccionar al subir el formulario <br>
+                < method > especifica el metodo HTTP al subir el formulario</p>
+
+            <li><h2>¿Qué tanto soporte HTML5 tiene el navegador que utilizas? Puedes utilizar la siguiente página para descubrirlo: http://html5test.com/ (Al responder la pregunta recuerda poner el navegador que utilizas)</h2></li>
+            <p> Google Chrome <br>
+                Mac OSX <br>
+                481/555</p>
+
+            <li><h2>Sobre el ciclo de vida y desarrollo de los sistemas de información: <br>
+                    ¿Cuál es el ciclo de vida de los sistemas de información? </h2></li>
+            <ol>    <li>Planificación</li>
+                    <li>Análisis</li>
+                    <li>Diseño</li>
+                    <li>Implementación</li>
+                    <li>Mantenimiento</li>
+            </ol> 
+
+            <h2>¿Cuál es el ciclo de desarrollo de sistemas de información? </h2>
+
+            <ol>    <li>Definir requisitos</li>
+                    <li>Analizar y diseñar software</li>
+                    <li>mplementar y prueba de unidades</li>
+                    <li>Integrar y probar el sistema</li>
+                    <li>Operación y mantenimiento</li>
+            </ol> 
+        </ul>
+    </div>
+
+    <footer class="seccion-footer">
+            <h1 id="contacto">Contacto</h1>
+            <div>
+                <p>Email: a01421954@itesm.mx</p>
+                <strong> Fernando Amezquita Millan</strong>
+            </div>
+        </footer>
+</body>
+</html>
