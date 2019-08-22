@@ -13,7 +13,20 @@
     <script type="text/javascript">
         var columna = prompt(`Ingresa el numero de columnas: `);
         var filas = prompt(`Ingresa el numero de filas: `);
+        var myArray = [[], []];
+        creandoArray();
 
-
+        
+        function creandoArray() { 
+ 
+            // expandir todas las columnas y filas 
+            for(let i = 0; i < filas; i++){
+                for(let j =  myArray[i].length; j < columna; j++){
+                    // Agregando Valores desde prompt al arreglo
+                    myArray[i].push(prompt(`Enter a number: `)); 
+                }
+            }
+        }
+        
     </script>
 </html>
