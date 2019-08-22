@@ -11,7 +11,20 @@
     <h2>by Fernando Amézquita Millán</h2>
 </body>
 <script type="text/javascript">
-    
+    var str = prompt(`Introduce un numero o palabra: `);
+    reverseString();
+
+    function reverseString() {
+        // Step 1. Use the split() method to return a new array
+        var splitString = str.split("");
+        // Step 2. Use the reverse() method to reverse the new created array
+        var reverseArray = splitString.reverse();
+        // Step 3. Use the join() method to join all elements of the array into a string
+        var joinArray = reverseArray.join("");
+        //Step 4. Print with an alert the reversed string
+        alert(joinArray);
+    }
+        
 </script>
 
 </html> 
