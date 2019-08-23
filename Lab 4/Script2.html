@@ -10,9 +10,11 @@
 <body>
     <h1>Lab 3 (Script 2)</h1>
     <h2>by Fernando Amézquita Millán</h2>
+    <p id="demo"></p>
     
 </body>
     <script type="text/javascript">
+        myTimer();
         var a = Math.floor(Math.random() * 10); // Genera numero random del 0 al 10 
         var b = Math.floor(Math.random() * 10);
         var resultado = prompt(`Introduce la suma de: ${a} + ${b}`);
@@ -30,8 +32,11 @@
             }
         }
 
-        function tiempo(){
+        var myVar = setInterval(myTimer, 1000);
 
+        function myTimer() {
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
         }
             
     </script>
