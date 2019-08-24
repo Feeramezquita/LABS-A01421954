@@ -9,8 +9,29 @@
 <body>
     <h1>Lab 4 (Script 6)</h1>
     <h2>by Fernando Amézquita Millán</h2>
+    <p>Programa para dar reproducir y pausar cancion</p>
+    
+    <button id="myButton" style="height: 80px; width: 100px">Play</button>
+
+    <button id="myButton2" style="height: 80px; width: 100px">Pause</button>
 
     <script>
+        var cancion = prompt(`Ingresa el nombre de la cancion que desea reproducir: `);
+        const musica = {
+            reproducir: function(cancion) {
+              console.log(`Canción cargada utilice los botones para reproducir `);  
+            },
+        }
+
+        musica.reproducir(cancion);
+
+        document.getElementById("myButton").onclick = function () {
+            console.log(`Playing: ${cancion}`);
+        };
+
+        document.getElementById("myButton2").onclick = function () {
+            console.log(`Pausa...`);
+        };
 
     </script>
 </body>
