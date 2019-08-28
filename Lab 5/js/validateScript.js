@@ -4,10 +4,8 @@ function validar() {
     
     if(user == "fer" && pass == "12345") {
         alert(`Usuario y contraseña validos`);
-        return true;
     } else {
         alert(`Verifique sus datos`);
-        return false;
     }
     
 }

@@ -30,7 +30,7 @@ body {
 
 .form-box input[type="text"],
 .form-box input[type="password"],
-.form-box button[type="submit"] {
+.form-box button[type="button"] {
     border: 0;
     background: none;
     display: block;
@@ -52,13 +52,13 @@ body {
 
 }
 
-.form-box button[type="submit"] {
+.form-box button[type="button"] {
     border: 0;
     border: 2px solid #3742fa;
     background: #5352ed;
     cursor: pointer;
 }
 
-.form-box button[type="submit"]:hover {
+.form-box button[type="button"]:hover {
     background: none;
 }
