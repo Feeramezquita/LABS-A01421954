@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lab 5</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Login de Usuarios</h1>
-    </header>
-<center>
-        <form action= "/html/home.html" method="GET" >
-            <table id="login"> 
-                    <tr>
-                        <td><label>Usuario:</label></td> <td><input type="text" name="usuario" id="usuario"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Contraseña:</label></td> <td><input type="text" name="password" id="password"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="button" name="btnVerif" id="btnVerif"  onclick="validar()"  value="Login"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="submit" name="btnVerif" id="btnVerif"  submit="validar()"  value="Login Home"></td>
-                    </tr>
-                </table>
-        </form>
-</center>
 
-<script src="/js/script.js"></script>
+    <form action="./html/home.html" method="GET" class="form-box animated fadeInUp">
+        <h1 class="form-title">Sing In</h1>
+        <input type="text" placeholder="Username" id="usuario">
+        <input type="password" placeholder="Password" id="password">
+        <button type="submit" submit="validar()">Login</button>
+    </form>
+    <script src="./js/validateScript.js"></script>
 </body>
 </html>
