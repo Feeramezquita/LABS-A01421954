@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda</title>
+</head>
+<body>
+    <div class="text_container">
+        <strong>Tienda</strong>
+            <table>
+                <tr>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                </tr>
+                <tr>
+                    <td>Soda</td>
+                    <td>$10</td>
+                    <td><input type="number" min="0" value="0" id="prod1" onkeypress="isInputNumber(event)"></td>
+                </tr>
+                <tr>
+                    <td>Sandwich</td>
+                    <td>$20</td>
+                    <td><input type="number" min="0" value="0" id="prod2" onkeypress="isInputNumber(event)"></td>
+                </tr>
+                <tr>
+                    <td>Papas</td>
+                    <td>$13.50</td>
+                    <td><input type="number" min="0" value="0" id="prod3" onkeypress="isInputNumber(event)"></td>
+                </tr>
+            </table>
+            IVA: <input type="number" min="0" value="16" id="iva" onkeypress="isInputNumber(event)">%<br>
+            <input type="button" onclick="store()" value="Pagar"><br>
+            <div id="recibo"></div>
+    </div>
+    <br>
+    <div class="text_container">
+        <strong>Encriptador</strong>
+        <form onsubmit="return false">
+            Ingrese palabra: <input type="text" id="txt"><br>
+            <div id="coded_txt"></div>
+            <input type="submit" onclick="crypt()" value="Crypt">
+            <input type="submit" onclick="decrypt()" value="Decrypt">
+        </form>
+    </div> 
+    <script src="./js/script.js"></script>
+</body>
+</html>

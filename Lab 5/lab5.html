@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 5</title>
+</head>
+<body>
+    <header>
+            <h2>Sobre Mí</h2>
+            <p>Hola mi nombre es Fernando Amezquita Millan, tengo 22 años y soy estudiante de 5to Semestre de la Carrera en Sistemas Computacionales en el Tec de Monterrey Campus QRO
+            </p>
+    
+            <h2>Aficiones</h2>
+            <p>Me gusta mucho hacer ejercicio, comer saludable. 
+            <br>Por otro lado tambien disfruto mucho jugar videojuegos ya sea en la Pc o en alguna consola en mis tiempos libres. 
+            <br>Este es el primer laboratorio que realizo en este curso y estoy muy emocinado por lo que viene. </p>
+    </header>
+    
+    <h1>LAB 4: JAVASCRIPT</h1>
+    <button id="myButton" style="height: 80px; width: 100px">Validador Pass</button><br><br>
+    <button id="myButton2" style="height: 80px; width: 100px">Iva y Encrypt</button><br><br>
+    
+    <h2>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</h2>
+    <p>Para evitar que entradas no deseadas. Por ejemplo si estas pidiendo una edad y ese valor lo vas a usar posteriromente para calcular alguna operación, recibir una letra crearía muchsímos problemas, es un dato basura, lo ideal sería limitar el inputs en ese escenario a enteros positivos y desplegar un mensaje al usario en caso indicado los parámetros de entrada por cuestiones de usabilidad.</p>
+
+    <h2>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</h2>
+    <p>Removiendo onsubmit del form o haciendo que regrese true.</p>
+
+    <h2>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</h2>
+    <p>Hay veces que quieres ver que el código funcione (o hasta donde llega), otras que simplemente necesitas una función en específico, por ejemplo yo en el primer script bloquee la recarga de página al hacer submit, esto porque si no cada que el usuario diera submit se borraría su contraseña anterior, lo cual sería muy molesto. JavaScript es muy libre en el sentido de que al ser un lenguaje no tipado puedes violar ciertas condiciones.</p>
+
+
+    <script src="./script.js"></script>
+</body>
+    
+</html>
