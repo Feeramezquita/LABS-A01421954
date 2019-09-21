@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@10.25.18.106">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>10.0.5512</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ReportServer$SIQUEIROS">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="3" parent="1" name="ReportServer$SIQUEIROSTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="a1154945">
+      <ObjectId>8</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="a1208937">
+      <ObjectId>9</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="a1208964">
+      <ObjectId>10</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="a1209043">
+      <ObjectId>13</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="a1233416">
+      <ObjectId>14</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="a1250647">
+      <ObjectId>15</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="a1421954">
+      <ObjectId>16</ObjectId>
+      <Current>1</Current>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+      <Fingerprint>16.43713/C76FD335-2483-4DC5-A8D4-99328D2369A1@SIQUEIROS\SIQUEIROS</Fingerprint>
+    </database>
+    <database id="11" parent="1" name="a1635041">
+      <ObjectId>17</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="a1701248">
+      <ObjectId>18</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="a1701446">
+      <ObjectId>19</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="a1702029">
+      <ObjectId>20</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="a1702242">
+      <ObjectId>21</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="a1702321">
+      <ObjectId>22</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="a1703280">
+      <ObjectId>23</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="a1703455">
+      <ObjectId>24</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="a1703675">
+      <ObjectId>25</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="a1703912">
+      <ObjectId>26</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="a1703947">
+      <ObjectId>27</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="al570654">
+      <ObjectId>7</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="em706259">
+      <ObjectId>11</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="equipo01">
+      <ObjectId>28</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="equipo02">
+      <ObjectId>29</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="26" parent="1" name="equipo03">
+      <ObjectId>30</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="equipo04">
+      <ObjectId>31</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="equipo05">
+      <ObjectId>32</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="29" parent="1" name="jetrejo">
+      <ObjectId>12</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="30" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="31" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="32" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="33" parent="1" name="rcortese">
+      <ObjectId>39</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <schema id="35" parent="10" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="36" parent="10" name="a1421954">
+      <ObjectId>5</ObjectId>
+      <IntrospectionTimestamp>2019-09-18.04:56:02.787</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="37" parent="10" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="38" parent="10" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="39" parent="10" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="40" parent="10" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="41" parent="10" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="42" parent="10" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="43" parent="10" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="44" parent="10" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="45" parent="10" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="46" parent="10" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="47" parent="10" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="48" parent="10" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+  </database-model>
+</dataSource>
