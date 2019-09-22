@@ -1,17 +1,28 @@
-body, html,  {
+body, html {
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
 body {
-    
+    background-color: rgb(227, 229, 230);
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 45px;   
 }
 
 header {
-    background-color:gray;
+    background-image: url(/img/header.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 200px;
 }
-h1 {
-    color: white;
-    padding: 80px;
+
+img {
+    border-color:black;
+    border-width: 4px;
+    border-style: solid;
 }
