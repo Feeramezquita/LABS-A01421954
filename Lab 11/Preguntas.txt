@@ -1,0 +1,17 @@
+Ejecuta sp_help materiales
+¿Que muestra la instrucción?
+Regresó una interaz que muestra tipo, longitud, precisión, escala, 
+entre otros campos de la tabala materiales
+
+Ejecuta las instrucciones que contiene el archivo crear.sql 
+¿Qué efecto tuvo esta acción?
+Se crearon las 4 tablas
+¿Qué utilidad tiene esta manera de ejecutar los comandos de SQL?
+Es muy facil hacer las tablas con comando en vez de hacerlas desde interfaz
+
+¿Qué relación tiene el contenido de este archivo (materiales.sql) con el formato en que se encuentran los datos en el archivo materiales.csv?
+Se van a llenar las tablas de los csv
+
+SELECT  * FROM Materiales
+¿Qué sucedió?
+Se extrajeron todas las tuplas de la tabla 
