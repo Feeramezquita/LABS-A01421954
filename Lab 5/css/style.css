@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+    height: 100% 
+  }
+.botones {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.boton {
+    background-color: green;
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
