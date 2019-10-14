@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@10.25.18.106">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>10.0.5512</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ReportServer$SIQUEIROS">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="3" parent="1" name="ReportServer$SIQUEIROSTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="a1154945">
+      <ObjectId>8</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="a1208937">
+      <ObjectId>9</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="a1208964">
+      <ObjectId>10</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="a1209043">
+      <ObjectId>13</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="a1233416">
+      <ObjectId>14</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="a1250647">
+      <ObjectId>15</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="a1421954">
+      <ObjectId>16</ObjectId>
+      <Current>1</Current>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+      <Fingerprint>16.43713/C76FD335-2483-4DC5-A8D4-99328D2369A1@SIQUEIROS\SIQUEIROS</Fingerprint>
+    </database>
+    <database id="11" parent="1" name="a1635041">
+      <ObjectId>17</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="a1701248">
+      <ObjectId>18</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="a1701446">
+      <ObjectId>19</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="a1702029">
+      <ObjectId>20</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="a1702242">
+      <ObjectId>21</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="a1702321">
+      <ObjectId>22</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="a1703280">
+      <ObjectId>23</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="a1703455">
+      <ObjectId>24</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="a1703675">
+      <ObjectId>25</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="a1703912">
+      <ObjectId>26</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="a1703947">
+      <ObjectId>27</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="al570654">
+      <ObjectId>7</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="em706259">
+      <ObjectId>11</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="equipo01">
+      <ObjectId>28</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="equipo02">
+      <ObjectId>29</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="26" parent="1" name="equipo03">
+      <ObjectId>30</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="equipo04">
+      <ObjectId>31</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="equipo05">
+      <ObjectId>32</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="29" parent="1" name="jetrejo">
+      <ObjectId>12</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="30" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="31" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="32" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="33" parent="1" name="rcortese">
+      <ObjectId>39</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <schema id="35" parent="10" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="36" parent="10" name="a1421954">
+      <ObjectId>5</ObjectId>
+      <IntrospectionTimestamp>2019-10-09.03:38:00.160</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="37" parent="10" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="38" parent="10" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="39" parent="10" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="40" parent="10" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="41" parent="10" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="42" parent="10" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="43" parent="10" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="44" parent="10" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="45" parent="10" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="46" parent="10" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="47" parent="10" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="48" parent="10" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="49" parent="36" name="Alumno">
+      <ObjectId>581577110</ObjectId>
+      <CreatedTimestamp>2019-10-09.02:42:32.467</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-09.02:42:32.467</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="36" name="Carrera">
+      <ObjectId>517576882</ObjectId>
+      <CreatedTimestamp>2019-10-09.02:41:32.090</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-09.02:42:32.470</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="36" name="Entregan">
+      <ObjectId>357576312</ObjectId>
+      <CreatedTimestamp>2019-09-25.04:10:23.990</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:16:19.900</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="36" name="Materiales">
+      <ObjectId>293576084</ObjectId>
+      <CreatedTimestamp>2019-09-25.04:00:46.893</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:16:19.900</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="36" name="Proveedores">
+      <ObjectId>309576141</ObjectId>
+      <CreatedTimestamp>2019-09-25.04:02:43.900</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:10:27.303</ModifiedTimestamp>
+    </table>
+    <table id="54" parent="36" name="Proyectos">
+      <ObjectId>325576198</ObjectId>
+      <CreatedTimestamp>2019-09-25.04:03:38.807</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:11:05.347</ModifiedTimestamp>
+    </table>
+    <column id="55" parent="49" name="Matricula">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="49" name="Nombre">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="49" name="ApellidoP">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="49" name="AMaterno">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="49" name="Codigo">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="60" parent="49" name="PK__Alumno__0FB9FB4E24927208">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Matricula</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="49" name="PK__Alumno__0FB9FB4E24927208">
+      <ObjectId>629577281</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-09.02:42:32.470</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-09.02:42:32.470</ModifiedTimestamp>
+      <ColNames>Matricula</ColNames>
+      <UnderlyingIndexName>PK__Alumno__0FB9FB4E24927208</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="49" name="FK__Alumno__Codigo__267ABA7A">
+      <ObjectId>645577338</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-09.02:42:32.470</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-09.02:42:32.470</ModifiedTimestamp>
+      <ColNames>Codigo</ColNames>
+      <RefTableId>517576882</RefTableId>
+      <RefTableName>Carrera</RefTableName>
+      <RefKeyName>PK__Carrera__06370DAD20C1E124</RefKeyName>
+      <RefColNames>Codigo</RefColNames>
+    </foreign-key>
+    <column id="63" parent="50" name="Codigo">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="50" name="Nombre">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="65" parent="50" name="PK__Carrera__06370DAD20C1E124">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Codigo</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="50" name="PK__Carrera__06370DAD20C1E124">
+      <ObjectId>565577053</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-10-09.02:41:32.093</CreatedTimestamp>
+      <ModifiedTimestamp>2019-10-09.02:41:32.093</ModifiedTimestamp>
+      <ColNames>Codigo</ColNames>
+      <UnderlyingIndexName>PK__Carrera__06370DAD20C1E124</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="67" parent="51" name="Clave">
+      <Position>1</Position>
+      <DataType>numeric(5)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="51" name="RFC">
+      <Position>2</Position>
+      <DataType>char(13 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="51" name="Numero">
+      <Position>3</Position>
+      <DataType>numeric(5)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="51" name="Fecha">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="51" name="Cantidad">
+      <Position>5</Position>
+      <DataType>numeric(8,2)|0s</DataType>
+    </column>
+    <index id="72" parent="51" name="llaveEntregan">
+      <Position>1</Position>
+      <ColNames>Clave
+RFC
+Numero
+Fecha</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="51" name="llaveEntregan">
+      <ObjectId>421576540</ObjectId>
+      <CreatedTimestamp>2019-09-26.05:12:08.750</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:12:08.750</ModifiedTimestamp>
+      <ColNames>Clave
+RFC
+Numero
+Fecha</ColNames>
+      <UnderlyingIndexName>llaveEntregan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="51" name="cfentreganclave">
+      <ObjectId>437576597</ObjectId>
+      <CreatedTimestamp>2019-09-26.05:16:19.900</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:16:19.900</ModifiedTimestamp>
+      <ColNames>Clave</ColNames>
+      <RefTableId>293576084</RefTableId>
+      <RefTableName>Materiales</RefTableName>
+      <RefKeyName>llaveMateriales</RefKeyName>
+      <RefColNames>Clave</RefColNames>
+    </foreign-key>
+    <column id="75" parent="52" name="Clave">
+      <Position>1</Position>
+      <DataType>numeric(5)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="52" name="Descripcion">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="77" parent="52" name="Costo">
+      <Position>3</Position>
+      <DataType>numeric(8,2)|0s</DataType>
+    </column>
+    <index id="78" parent="52" name="llaveMateriales">
+      <Position>1</Position>
+      <ColNames>Clave</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="79" parent="52" name="llaveMateriales">
+      <ObjectId>373576369</ObjectId>
+      <CreatedTimestamp>2019-09-25.04:39:06.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-25.04:39:06.960</ModifiedTimestamp>
+      <ColNames>Clave</ColNames>
+      <UnderlyingIndexName>llaveMateriales</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="80" parent="53" name="RFC">
+      <Position>1</Position>
+      <DataType>char(13 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="53" name="RazonSocial">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <index id="82" parent="53" name="llaveProveedores">
+      <Position>1</Position>
+      <ColNames>RFC</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="53" name="llaveProveedores">
+      <ObjectId>389576426</ObjectId>
+      <CreatedTimestamp>2019-09-26.05:10:27.300</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:10:27.300</ModifiedTimestamp>
+      <ColNames>RFC</ColNames>
+      <UnderlyingIndexName>llaveProveedores</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="54" name="Numero">
+      <Position>1</Position>
+      <DataType>numeric(5)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="54" name="Denominacion">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <index id="86" parent="54" name="llaveProyectos">
+      <Position>1</Position>
+      <ColNames>Numero</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="54" name="llaveProyectos">
+      <ObjectId>405576483</ObjectId>
+      <CreatedTimestamp>2019-09-26.05:11:05.343</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-26.05:11:05.343</ModifiedTimestamp>
+      <ColNames>Numero</ColNames>
+      <UnderlyingIndexName>llaveProyectos</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
