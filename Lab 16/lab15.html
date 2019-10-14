@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <title>Lab 15</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        
+    </head>
+    <body>
+		<header>
+			<h1>Lab 16</h1>
+			<p>Queries en SQL</p>
+		</header>
+		<section>
+		  <article>
+		    <h2>Investiga sobre Oracle, SQL Server, MySql y un DBMS NO relacional</h2>
+		    <table>
+		    		<tr>
+		    			<th></th>
+		    			<th>Oracle</th>
+		    			<th>SQL Server</th>
+		    			<th>MySql</th>
+						<th>MongoDB</th>
+		    		</tr>
+		    		<tr>
+		    			<td>Hardware reqs</td>
+		    			<td>500 MHz processor
+		    				<br>10 GB disk 
+		    				<br>4 GB memory</td>
+		    			<td>2 GHz processor
+		    				<br>6 GB  disk 
+		    				<br>4 GB memory</td>
+		    			<td>3 GHz processor
+		    				<br>2 GB  disk 
+		    				<br>4 GB memory</td>
+						<td>2 GHz processor
+		    				<br>600 MB   disk 
+		    				<br>15 GB memory</td>
+		    		</tr>
+		    		<tr>
+		    			<td>S.O.</td>
+		    			<td>Windows, Solaris, Linux</td>
+		    			<td>Windows, Windows Server</td>
+		    			<td>Windows, Linux, Mac OS X</td>
+						<td>Windows, Linux, Mac OS X</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Price</td>
+		    			<td>$47,500</td>
+		    			<td>$14,256</td>
+		    			<td>$5,000</td>
+						<td>$4000</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Advantages</td>
+		    			<td>Functionality, Reliability, Flashback Technology</td>
+		    			<td>Installation, Performance, Security</td>
+		    			<td>Maturity, compatibility, cost</td>
+						<td>Open Source, Cost, Faster, No SQL Injection</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Disadvantages</td>
+		    			<td>Cost, complexity</td>
+		    			<td>Interfacing, cost, implementation</td>
+		    			<td>Stability, Performance, Limitations</td>
+						<td>Not Relatinal, Insecure, Inconsistent </td>
+		    		</tr>
+		    		<tr>
+		    			<td>Market %</td>
+		    			<td>1st place</td>
+		    			<td>3rd place</td>
+		    			<td>2nd place</td>
+						<td>5th place</td>
+		    		</tr>
+		    		<tr>
+		    			<td>References</td>
+		    			<td>docs.oracle.com</td>
+		    			<td>docs.microsoft.com</td>
+		    			<td>download.nust.na</td>
+						<td>docs.opsmanager.mongodb.com</td>
+		    		</tr>
+		    </table>
+		    <br>
+		    select * from materiales,entregan 
+			where materiales.clave = entregan.clave 
+		    <h2>Si algún material no ha se ha entregado ¿Aparecería en el resultado de esta consulta? </h2>
+		    <p>
+		    No, saldrian con repeteción los materiales entregados
+		    </p>
+		    <br>
+		    (select * from entregan where clave=1450) 
+			union 
+			(select * from entregan where clave=1300)
+		    <h2>¿Cuál sería una consulta que obtuviera el mismo resultado sin usar el operador Unión? Compruébalo. </h2>
+		    <p>
+		    select * from entregan where clave=1450 or clave = 1300
+		    </p>
+		    <br>
+		    select * from entregan,materiales 
+		    <h2>¿Cómo está definido el número de tuplas de este resultado en términos del número de tuplas de entregan y de materiales? </h2>
+		    <p>
+		    Se hace producto cartesiano por no decir que la clave de ambas tablas es la misma
+		    </p>
+		    <br>
+		    Plantea ahora una consulta para obtener las descripciones de los materiales entregados en el año 2000. 
+		    <h2>¿Por qué aparecen varias veces algunas descripciones de material? </h2>
+		    <p>
+		    Por que un materiales se pudo entregar varias veces en ese año
+		    </p>
+		    <br>
+		    Agrega la palabra distinct inmediatamente después de la palabra select a la consulta que planteaste antes. 
+		    <h2>¿Qué resultado obtienes en esta ocasión? </h2>
+		    <p>
+		    DISTINCT quita las repeticiones, ahora solo vemos los materiales entregados en el año 2000
+		    </p>
+		    <br>
+		    SELECT * FROM productos where Descripcion LIKE 'Si%' 
+		    <h2>¿Qué resultado obtienes? 
+			<br>Explica que hace el símbolo '%'. 
+			<br>¿Qué sucede si la consulta fuera : LIKE 'Si' ? 
+			<br>¿Qué resultado obtienes? 
+			<br>Explica a qué se debe este comportamiento. </h2>
+		    <p>
+		    Aparecen los materiales cuya descripcion empieza con el prefijo si
+		    Si no se usa %, va a buscar los materiales cua descripcion sea igual a si
+		    </p>
+		    <br>
+		    SELECT (Apellido + ', ' + Nombre) as Nombre FROM Personas; 
+		    <br>DECLARE @foo varchar(40); 
+			<br>DECLARE @bar varchar(40); 
+			<br>SET @foo = '¿Que resultado'; 
+			<br>SET @bar = ' ¿¿¿??? ' 
+			<br>SET @foo += ' obtienes?'; 
+			<br>PRINT @foo + @bar; 
+		    <h2>¿Qué resultado obtienes de ejecutar el siguiente código? 
+			<br>¿Para qué sirve DECLARE? 
+			<br>¿Cuál es la función de @foo? 
+			<br>¿Que realiza el operador SET? </h2>
+		    <p>
+		    Se concatena el apellido con el nombre en un string
+		    <br>DECLARE nos permite declarar variables
+		    <br>SET permite modificar el string @foo o @bar
+		    </p>
+		    <br>
+			SELECT Clave,RFC,Numero,Fecha,Cantidad 
+			<br>FROM Entregan 
+			<br>WHERE Numero Between 5000 and 5010; 
+		    <h2>¿Cómo filtrarías rangos de fechas? </h2>
+		    <p>
+		    Obtendria su valor numérico y haria uso de between
+		    </p>
+		    <br>
+		    SELECT RFC,Cantidad, Fecha,Numero 
+			<br>FROM [Entregan] 
+			<br>WHERE [Numero] Between 5000 and 5010 AND 
+			<br>Exists ( SELECT [RFC] 
+			<br>FROM [Proveedores] 
+			<br>WHERE RazonSocial LIKE 'La%' and [Entregan].[RFC] = [Proveedores].[RFC] ) 
+		    <h2>¿Qué hace la consulta? 
+			<br>¿Qué función tiene el paréntesis ( ) después de EXISTS? </h2>
+		    <p>
+		    Regresa el RFC, Cantidad, Fecha y Numero (entre 5000 y 5010) de los provedores con prefijo La
+		    </p>
+		    <br>
+		    SELECT TOP 2 * FROM Proyectos 
+		    <h2>¿Qué hace la sentencia? Explica por qué. </h2>
+		    <p>
+		    Regresa las primeras dos tuplas de Proyectos
+		    </p>
+		    <br>
+		    SELECT TOP Numero FROM Proyectos 
+		    <h2>¿Qué sucede con la consulta? Explica por qué. </h2>
+		    <p>
+		    Incorrect syntax, porque estamos usando el id
+		    </p>
+		    <br>
+		    <h2>Los materiales (clave y descripción) entregados al proyecto "México sin ti no estamos completos". </h2>
+		    <p>
+		   	SELECT DISTINCT E.clave, M.descripcion
+			<br>FROM Entregan E, Proyectos P, Materiales M
+			<br>WHERE E.clave = M.clave and P.numero=E.Numero
+			<br>and P.Denominacion like 'Mexico sin ti no estamos completos'
+		    </p>
+		  </article>
+		</section>
+
+	</body>
+</html>
