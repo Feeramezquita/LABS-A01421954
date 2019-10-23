@@ -7,5 +7,17 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://10.25.18.106:10433</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="feramez@localhost" uuid="b5e156d1-38b1-457a-9fc6-388289cdf9a8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/feramez</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL for 5.1 - dawbdorg_A01421954@mysql1008.mochahost.com" uuid="3914f7a9-0e2f-4b5b-9df9-6e7acc41c933">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql1008.mochahost.com:3306/dawbdorg_A01421954</jdbc-url>
+    </data-source>
   </component>
 </project>
